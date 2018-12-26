@@ -56,7 +56,7 @@ Here come the details. If we develop a Qt Quick app, the C++ part, or the so cal
 
 Honestly speaking, I haven't handle the compilation problem itself. Rather I separate the app into two parts. The loader part is essentially a qml engine or qmlscene on the QtWasm. Please note that due to the security restriction of the browsers, you can only put your QML files under the same domain as the QtWasm files.
 
-## How to show pictures by `Image`?
+## How to show pictures by Image?
 
 By separating our QML into different part, we can rapidly test our new UI on the browsers. But you'll finally find that the `Image` won't work as usual. It cannot load pictures on the Internet. Why?
 
@@ -121,7 +121,7 @@ I've submit my demo to Github: [QtWasmLoader](https://github.com/cjmdaixi/QtWasm
 
 I also turned on the Github Pages, so you can see the result directly on your own browsers: [cjmdaixi.github.io/QtWasmLoader](https://cjmdaixi.github.io/QtWasmLoader/):
 
-![img](../assets/images/qtwasmloader.jpg)
+![img](assets/images/qtwasmloader.jpg)
 
 The QML content is my another repo: [DarkSwitch](https://github.com/cjmdaixi/DarkSwitch).
 
