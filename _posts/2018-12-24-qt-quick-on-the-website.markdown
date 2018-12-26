@@ -121,7 +121,7 @@ I've submit my demo to Github: [QtWasmLoader](https://github.com/cjmdaixi/QtWasm
 
 I also turned on the Github Pages, so you can see the result directly on your own browsers: [cjmdaixi.github.io/QtWasmLoader](https://cjmdaixi.github.io/QtWasmLoader/):
 
-![img](assets/images/qtwasmloader.jpg)
+![img](/assets/images/qtwasmloader.jpg)
 
 The QML content is my another repo: [DarkSwitch](https://github.com/cjmdaixi/DarkSwitch).
 
