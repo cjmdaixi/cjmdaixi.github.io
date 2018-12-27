@@ -18,9 +18,9 @@ email: jimmyzju@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
         I am a big C++/Qt fan. This blog is a collection of what I've done for learning & exploring the power of C++ & Qt.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jimmychen.space" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  cjmdaixi
 
 # Build settings
 markdown: kramdown
