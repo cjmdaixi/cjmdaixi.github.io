@@ -2,8 +2,8 @@
 layout: post
 title:  "Qt Quick on the Browser"
 date:   2018-12-24 20:14:51 +0800
-categories: qt qml webassembly
-comments: true
+categories: [ qt, qml, webassembly ]
+image: assets/images/qtwasm.png
 ---
 
 Do you want to run your lovely Qt Quick app on the browsers? Before Qt 5.12, the only way is to use the [Qt WebGL streaming plugin](https://blog.qt.io/blog/2018/11/23/qt-quick-webgl-release-512/). It is, however, just a mirror of the UI and suffers from some problems which will be mentioned later. Starting with Qt 5.12, a new module emerges, the Qt for WebAssembly(QtWasm for short). Briefly speaking, it's a trial to compile the Qt framework to webassembly, a new form of bytecode that can run on the browsers. This post will explan how to write your first QtWasm app in details, and try to provide solutions to some problems you will inevitably encounter.
