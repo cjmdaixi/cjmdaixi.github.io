@@ -241,11 +241,21 @@ License: https://www.wowthemes.net/freebies-license/
  .link-dark {
      color:rgba(0,0,0,.8);
 }
- .article-post {
-     font-family:Merriweather;
-     font-size:1.1rem;
-     line-height:1.84;
-     color:rgba(0,0,0,.8);
+@media (min-width: 768px) {
+    .article-post {
+        font-family:Merriweather;
+        font-size:1.1rem;
+        line-height:1.84;
+        color:rgba(0,0,0,.8);
+    }
+}
+@media (max-width: 768px) {
+    .article-post {
+        font-family:Merriweather;
+        font-size:0.5rem;
+        line-height:1.1;
+        color:rgba(0,0,0,.8);
+   }
 }
  blockquote {
      border-left:4px solid #00ab6b;
